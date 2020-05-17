@@ -1,0 +1,9 @@
+node {
+    stage("clone"){
+        git "https://github.com/dmatan45/lesson1.git"
+    }
+    stage("show"){
+        bat "dir"
+    }
+    
+}
